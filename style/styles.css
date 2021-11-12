@@ -1,0 +1,223 @@
+:root {
+  --first-text-color: #ffffff;
+  --second-title-color: #000000;
+  --third-tex-color: #212121;
+  --fourth-text-color: #757575;
+  --fifeth-text-color: #2196f3;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--third-tex-color);
+}
+.pointer {
+  cursor: pointer;
+}
+/*---------------- LINKS NAV---------------------*/
+
+.menu-links .link {
+  color: var(--third-tex-color);
+}
+.menu-links .link:focus {
+  color: var(--fifeth-text-color);
+}
+
+/*---------------- LINKS TEL/EMAIL---------------------*/
+
+.tel-email-links .link {
+  color: var(--fourth-text-color);
+}
+.tel-email-links .link:focus {
+  color: var(--fifeth-text-color);
+}
+
+/*---------------- LOGOTIP HEADER---------------------*/
+
+.logo-color-blue {
+  font-family: Raleway;
+  font-weight: 400;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--fifeth-text-color);
+}
+
+.logo-color-black {
+  font-family: Raleway;
+  font-weight: 400;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.logo-color-white {
+  font-family: Raleway;
+  font-weight: 400;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--first-text-color);
+}
+/*---------------- HEADER ---------------------*/
+
+.menu-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+}
+
+.contacts-email {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  color: var(--fourth-text-color);
+}
+
+.contacts-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  color: var(--fourth-text-color);
+}
+
+/*---------------- HERO LIST ---------------------*/
+
+.main-title-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--first-text-color);
+  border: 1px solid #000000;
+  background-color: #2f303a;
+}
+
+.main-button {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  width: 200px;
+  height: 50px;
+  left: 713px;
+  top: 445px;
+  color: var(--first-text-color);
+  background-color: #2196f3;
+}
+
+/*---------------- particular qualities ---------------------*/
+
+.main-qualities {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--third-tex-color);
+}
+
+.content-qualities {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--fourth-text-color);
+}
+
+/*-------------------SPECIALIZATION----------------*/
+
+.second-title-text {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--third-tex-color);
+}
+
+/*-------------------COMAND----------------*/
+
+.third-title-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--third-tex-color);
+}
+
+.profession {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--fourth-text-color);
+}
+
+/*-------------------FOOTER----------------*/
+
+.adress-links .link-footer {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.adress-links .link-footer:focus {
+  color: var(--fifeth-text-color);
+}
+
+.footer-bg {
+  background: #2f303a;
+}
+
+.color-white {
+  color: var(--first-text-color);
+}
+.adress-links .link-footer:focus .color-white {
+  color: var(--fifeth-text-color);
+}
+
+.footer-font {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/*---------------------------------------*/
+/*------------PORTFOLIO------------------*/
+
+.btn-color .blue-btn {
+  background-color: #f5f4fa;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: var(--third-tex-color);
+}
+.btn-color .blue-btn:focus {
+  background-color: var(--fifeth-text-color);
+  color: var(--first-text-color);
+}
+
+.titel-text-third {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--third-tex-color);
+}
+.content-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--fourth-text-color);
+}
