@@ -67,7 +67,7 @@ body {
   color: var(--fifeth-text-color);
 }
 .header-connect {
-  margin-left: auto;
+  /*  margin-left: auto;*/
 }
 
 .header-container {
@@ -75,7 +75,7 @@ body {
   align-items: center;
   height: 80px;
   width: 1200px;
-  /*margin: 15px*/
+  margin: 0 auto;
 }
 /*---------------- LOGOTIP HEADER---------------------*/
 
@@ -127,7 +127,7 @@ body {
 .navigation-location {
   display: flex;
   align-items: center;
-  margin-right: 93px;
+  /* margin-right: 93px;*/
 }
 .navigation-links-menu:not(:last-child) {
   margin-right: 50px;
@@ -168,16 +168,16 @@ body {
 /*---------------- HERO LIST ---------------------*/
 
 .hero-list {
-  background-color: #2f303a;
-  width: 1600px;
-  height: 600px;
+  /* width: 1600px;
+  height: 600px;*/
 }
 
 .hero-container {
-  margin: 0;
+  margin: 0 auto;
   align-items: center;
   height: 600px;
   width: 1200px;
+  background-color: #2f303a;
 }
 
 .main-title-text {
@@ -220,21 +220,20 @@ body {
 /*-----------------QUALITIES---------------*/
 
 .qualities-container {
-  margin: 0;
+  margin: 0 auto;
 }
 
 .location-qualities {
-  /*padding-left: 215px;*/
-  padding-right: 215px;
+  /*padding-left: 215px;
+  padding-right: 215px;*/
   padding-bottom: 94px;
   padding-top: 108px;
-  height: 101px;
-  width: 1170px;
+  /*height: 101px;
+  width: 1170px;*/
 }
 
 .list-qualities {
   display: flex;
-  padding-left: 15px;
 }
 
 .main-qualities {
@@ -246,6 +245,7 @@ body {
   color: var(--third-tex-color);
 }
 .content-qualities {
+  margin: 0 auto;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -297,7 +297,7 @@ body {
 .container-third-text {
   padding-top: 94px;
   padding-bottom: 124px;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .third-title-text {
@@ -328,19 +328,19 @@ body {
 }
 /*-------------------FOOTER----------------*/
 .footer-bg {
-  width: 1600px;
+  width: 1200px;
   height: 252px;
   background: #2f303a;
+  margin: 0 auto;
 }
 .adress-container {
   width: 240px;
   height: 81px;
-  padding-left: px;
 }
 
 .footer-contanier {
   padding-top: 60px;
-  padding-left: 15px;
+  /* padding-left: 15px;*/
 }
 .main-footer-contanier {
 }
