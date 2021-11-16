@@ -75,7 +75,7 @@ body {
   align-items: center;
   height: 80px;
   width: 1200px;
-  /*margin: 15px*/;
+  /*margin: 15px*/
 }
 /*---------------- LOGOTIP HEADER---------------------*/
 
@@ -128,7 +128,6 @@ body {
   display: flex;
   align-items: center;
   margin-right: 93px;
-  
 }
 .navigation-links-menu:not(:last-child) {
   margin-right: 50px;
@@ -144,9 +143,8 @@ body {
 .navigation-links-contacts {
   padding-top: 32px;
   padding-bottom: 32px;
-  width: 140px; 
-  height: 16px; 
-  
+  width: 140px;
+  height: 16px;
 }
 
 .contacts-email {
@@ -176,7 +174,6 @@ body {
 }
 
 .hero-container {
- 
   margin: 0;
   align-items: center;
   height: 600px;
@@ -224,8 +221,6 @@ body {
 
 .qualities-container {
   margin: 0;
-
-  
 }
 
 .location-qualities {
@@ -290,14 +285,11 @@ body {
 .gallery-img {
   display: flex;
   padding-bottom: 94px;
- 
 }
 .distanse-img:not(:last-child) {
-
 }
 .distanse-img {
   margin-right: auto;
-  
 }
 
 /*-------------------COMAND----------------*/
@@ -339,22 +331,18 @@ body {
   width: 1600px;
   height: 252px;
   background: #2f303a;
-  
 }
 .adress-container {
   width: 240px;
   height: 81px;
   padding-left: px;
-  
 }
 
 .footer-contanier {
   padding-top: 60px;
   padding-left: 15px;
-  
 }
-.main-footer-contanier{
- 
+.main-footer-contanier {
 }
 .adress-links .link-footer {
   color: rgba(255, 255, 255, 0.6);
@@ -400,8 +388,8 @@ body {
   align-items: center;
   height: 80px;
   width: 1600px;
-  margin: 0px;*/
-}
+  margin: 0px;
+}*/
 
 .btn-color .blue-btn {
   background-color: #f5f4fa;
@@ -450,7 +438,7 @@ body {
   /* margin-right: 0px;*/
 }
 .portfolo-icons {
- /* margin: 0px;*/
+  /* margin: 0px;*/
   padding-bottom: 114px;
 }
 .list-icons {
