@@ -24,6 +24,11 @@ ul {
   padding: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -67,7 +72,7 @@ body {
   color: var(--fifeth-text-color);
 }
 .header-connect {
-  /*  margin-left: auto;*/
+  justify-content: space-between;
 }
 
 .header-container {
@@ -88,7 +93,7 @@ body {
   letter-spacing: 0.03 em;
   color: var(--fifeth-text-color);
   margin-right: 93px;
-  padding-left: 15px;
+
   padding-top: 24px;
   padding-bottom: 25px;
 }
@@ -122,27 +127,21 @@ body {
   letter-spacing: 0.02em;
 }
 .navigation-location:not(:last-child) {
-  margin-right: 93px;
+  margin-right: 359px;
 }
 .navigation-location {
   display: flex;
   align-items: center;
-  /* margin-right: 93px;*/
 }
 .navigation-links-menu:not(:last-child) {
   margin-right: 50px;
 }
-.navigation-links-menu {
+.link {
   padding-top: 32px;
   padding-bottom: 32px;
 }
 
-.navigation-links-contacts:not(:first-child) {
-  margin-left: 30px;
-}
 .navigation-links-contacts {
-  padding-top: 32px;
-  padding-bottom: 32px;
   width: 140px;
   height: 16px;
 }
@@ -153,7 +152,7 @@ body {
   line-height: 1.15;
   letter-spacing: 0.02em;
   color: var(--fourth-text-color);
-  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .contacts-tel {
@@ -162,22 +161,19 @@ body {
   line-height: 1.15;
   letter-spacing: 0.02em;
   color: var(--fourth-text-color);
-  padding-right: 15px;
 }
 
 /*---------------- HERO LIST ---------------------*/
 
 .hero-list {
-  /* width: 1600px;
-  height: 600px;*/
+  background-color: #2f303a;
 }
 
 .hero-container {
   margin: 0 auto;
-  align-items: center;
-  height: 600px;
-  width: 1200px;
-  background-color: #2f303a;
+  text-align: center;
+
+  padding-top: 200px;
 }
 
 .main-title-text {
@@ -185,35 +181,24 @@ body {
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
+
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--first-text-color);
-  width: 696px;
-  height: 120px;
-}
-
-.hero-navigation {
-  padding-left: 250px;
-  padding-top: 200px;
-  padding-right: 252px;
-  padding-bottom: 280px;
 }
 
 .main-button {
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   width: 200px;
   height: 50px;
-  left: 700px;
-  top: 430px;
   color: var(--first-text-color);
   background-color: #2196f3;
 }
 .button-navigation {
   margin-top: 30px;
-  padding-left: 250px;
   padding-bottom: 200px;
 }
 
@@ -224,12 +209,8 @@ body {
 }
 
 .location-qualities {
-  /*padding-left: 215px;
-  padding-right: 215px;*/
   padding-bottom: 94px;
   padding-top: 108px;
-  /*height: 101px;
-  width: 1170px;*/
 }
 
 .list-qualities {
@@ -237,7 +218,7 @@ body {
 }
 
 .main-qualities {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.03em;
@@ -264,42 +245,44 @@ body {
 
 /*-------------------SECOND TITLE----------------*/
 .container-second-text {
-  padding-top: 94px;
   padding-left: 15px;
 }
 
 .second-title-text {
-  width: 419px;
-  height: 42px;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--third-tex-color);
-  /* margin-top: 94px;*/
+
   margin-bottom: 50px;
-  margin-left: 415px;
 }
 
 .gallery-img {
   display: flex;
   padding-bottom: 94px;
 }
+
 .distanse-img:not(:last-child) {
+  margin-right: 30px;
 }
 .distanse-img {
-  margin-right: auto;
+  margin-right: 0px;
 }
 
 /*-------------------COMAND----------------*/
-
-.container-third-text {
+.comand-section {
   padding-top: 94px;
   padding-bottom: 124px;
-  margin: 0 auto;
 }
 
+.container-third-text {
+  margin: 0 auto;
+}
+.size-section-comand {
+  text-align: center;
+}
 .third-title-text {
   font-weight: 500;
   font-size: 16px;
@@ -307,7 +290,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--third-tex-color);
 
-  margin-top: 30px;
+  padding-top: 30px;
 }
 
 .profession {
@@ -316,6 +299,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--fourth-text-color);
   margin-top: 10px;
+  padding-bottom: 30px;
 }
 .gallery-comand {
   display: flex;
@@ -327,11 +311,10 @@ body {
   margin-right: 30px;
 }
 /*-------------------FOOTER----------------*/
-.footer-bg {
-  width: 1200px;
+.footer-section {
   height: 252px;
   background: #2f303a;
-  margin: 0 auto;
+  padding-top: 60px;
 }
 .adress-container {
   width: 240px;
@@ -339,11 +322,12 @@ body {
 }
 
 .footer-contanier {
-  padding-top: 60px;
-  /* padding-left: 15px;*/
+  margin: 0 auto;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
 }
-.main-footer-contanier {
-}
+
 .adress-links .link-footer {
   color: rgba(255, 255, 255, 0.6);
 }
@@ -353,16 +337,13 @@ body {
 }
 .adress-item {
   margin-top: 20px;
-  padding-left: 15px;
 }
 .mail-item {
   margin-top: 9px;
-  padding-left: 15px;
 }
 .tel-item {
   margin-top: 9px;
   padding-bottom: 60px;
-  padding-left: 15px;
 }
 
 .color-white {
@@ -383,14 +364,6 @@ body {
 /*---------------------------------------*/
 /*------------PORTFOLIO------------------*/
 
-/*.header-portfolio {
-  display: flex;
-  align-items: center;
-  height: 80px;
-  width: 1600px;
-  margin: 0px;
-}*/
-
 .btn-color .blue-btn {
   background-color: #f5f4fa;
   font-family: Roboto;
@@ -398,7 +371,6 @@ body {
   font-size: 16px;
   line-height: 1.62;
   color: var(--third-tex-color);
-
   border-radius: 4px;
 }
 .btn-color .blue-btn:focus {
@@ -422,36 +394,46 @@ body {
 
 .button-container {
   display: flex;
-  /*margin: 0px;*/
+  margin: 0 auto;
 }
 
 .button-items {
-  padding-left: 295px;
   padding-top: 94px;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .size-button:not(:last-child) {
   margin-right: 8px;
 }
 .size-button {
-  /* margin-right: 0px;*/
+  margin-right: 0px;
 }
 .portfolo-icons {
-  /* margin: 0px;*/
-  padding-bottom: 114px;
+  margin: 0 auto;
+  padding-bottom: 94px;
+  /* margin-bottom: 114px;*/
 }
 .list-icons {
   display: flex;
   flex-wrap: wrap;
 }
+.name-project {
+  padding-top: 20px;
+}
+.padding-img {
+  padding-bottom: 20px;
+}
+
 .img-icons {
   margin-right: 30px;
+  margin-bottom: 30px;
+  flex-basis: calc(100% / 3 - 30px);
 }
-.distanse-title {
-  margin-top: 20px;
-  margin-bottom: 4px;
+.img-icons:nth-child(3n) {
+  margin-right: 0px;
 }
-.distance-content-text {
-  margin-bottom: 50px;
+.border {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
