@@ -36,6 +36,7 @@ img {
   margin: 0 auto;
   margin-left: auto;
   margin-right: auto;
+  
 }
 
 button {
@@ -81,6 +82,10 @@ body {
   height: 80px;
   width: 1200px;
   margin: 0 auto;
+  
+}
+.line{
+ border-bottom: 1px solid #ECECEC;
 }
 /*---------------- LOGOTIP HEADER---------------------*/
 
@@ -163,16 +168,19 @@ body {
   color: var(--fourth-text-color);
 }
 
+}
+
 /*---------------- HERO LIST ---------------------*/
 
 .hero-list {
   background-color: #2f303a;
+  
 }
 
 .hero-container {
   margin: 0 auto;
   text-align: center;
-
+  background-color: #2f303a;
   padding-top: 200px;
 }
 
@@ -312,16 +320,16 @@ body {
 }
 /*-------------------FOOTER----------------*/
 .footer-section {
-  height: 252px;
   background: #2f303a;
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 .adress-container {
   width: 240px;
   height: 81px;
 }
 
-.footer-contanier {
+.footer-container {
   margin: 0 auto;
   align-items: center;
   width: 1200px;
@@ -363,6 +371,15 @@ body {
 
 /*---------------------------------------*/
 /*------------PORTFOLIO------------------*/
+
+
+ .blue-btn{ 
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 22px;
+  padding-left: 22px;
+  border: #f5f4fa;
+}
 
 .btn-color .blue-btn {
   background-color: #f5f4fa;
@@ -407,21 +424,26 @@ body {
 }
 .size-button {
   margin-right: 0px;
+  
 }
 .portfolo-icons {
   margin: 0 auto;
   padding-bottom: 94px;
-  /* margin-bottom: 114px;*/
+
 }
 .list-icons {
   display: flex;
   flex-wrap: wrap;
+  
 }
-.name-project {
+
+
+.paddings-texts{
+  padding-left: 24px;
+  padding-right: 24px;
   padding-top: 20px;
-}
-.padding-img {
   padding-bottom: 20px;
+ 
 }
 
 .img-icons {
@@ -431,9 +453,18 @@ body {
 }
 .img-icons:nth-child(3n) {
   margin-right: 0px;
+  
 }
-.border {
+.img-icons{
   background: #ffffff;
   border: 1px solid #eeeeee;
-  box-sizing: border-box;
+  box-sizing:content-box;
 }
+
+
+.distanse-title{
+  margin-bottom: 4px;
+}
+.size-text{
+  width: 320px;
+  
