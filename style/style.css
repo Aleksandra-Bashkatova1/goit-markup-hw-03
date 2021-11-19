@@ -36,7 +36,6 @@ img {
   margin: 0 auto;
   margin-left: auto;
   margin-right: auto;
-  
 }
 
 button {
@@ -82,10 +81,10 @@ body {
   height: 80px;
   width: 1200px;
   margin: 0 auto;
-  
 }
-.line{
- border-bottom: 1px solid #ECECEC;
+
+.line {
+  border-bottom: 1px solid #ececec;
 }
 /*---------------- LOGOTIP HEADER---------------------*/
 
@@ -98,7 +97,6 @@ body {
   letter-spacing: 0.03 em;
   color: var(--fifeth-text-color);
   margin-right: 93px;
-
   padding-top: 24px;
   padding-bottom: 25px;
 }
@@ -167,32 +165,28 @@ body {
   letter-spacing: 0.02em;
   color: var(--fourth-text-color);
 }
-
-}
-
 /*---------------- HERO LIST ---------------------*/
 
 .hero-list {
   background-color: #2f303a;
-  
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-container {
   margin: 0 auto;
   text-align: center;
-  background-color: #2f303a;
-  padding-top: 200px;
 }
-
 .main-title-text {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
-
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--first-text-color);
+
+  margin-bottom: 30px;
 }
 
 .main-button {
@@ -206,7 +200,6 @@ body {
   background-color: #2196f3;
 }
 .button-navigation {
-  margin-top: 30px;
   padding-bottom: 200px;
 }
 
@@ -282,7 +275,7 @@ body {
 /*-------------------COMAND----------------*/
 .comand-section {
   padding-top: 94px;
-  padding-bottom: 124px;
+  padding-bottom: 94px;
 }
 
 .container-third-text {
@@ -290,6 +283,8 @@ body {
 }
 .size-section-comand {
   text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .third-title-text {
   font-weight: 500;
@@ -297,8 +292,6 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--third-tex-color);
-
-  padding-top: 30px;
 }
 
 .profession {
@@ -307,8 +300,8 @@ body {
   letter-spacing: 0.03em;
   color: var(--fourth-text-color);
   margin-top: 10px;
-  padding-bottom: 30px;
 }
+
 .gallery-comand {
   display: flex;
   width: 1170px;
@@ -317,6 +310,15 @@ body {
 
 .img-comand {
   margin-right: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.last-comand {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 /*-------------------FOOTER----------------*/
 .footer-section {
@@ -372,8 +374,7 @@ body {
 /*---------------------------------------*/
 /*------------PORTFOLIO------------------*/
 
-
- .blue-btn{ 
+.blue-btn {
   padding-top: 6px;
   padding-bottom: 6px;
   padding-right: 22px;
@@ -415,7 +416,6 @@ body {
 }
 
 .button-items {
-  padding-top: 94px;
   margin-bottom: 50px;
 }
 
@@ -424,26 +424,25 @@ body {
 }
 .size-button {
   margin-right: 0px;
-  
 }
 .portfolo-icons {
   margin: 0 auto;
-  padding-bottom: 94px;
+}
 
+.portfolio-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .list-icons {
   display: flex;
   flex-wrap: wrap;
-  
 }
 
-
-.paddings-texts{
+.paddings-texts {
   padding-left: 24px;
   padding-right: 24px;
   padding-top: 20px;
   padding-bottom: 20px;
- 
 }
 
 .img-icons {
@@ -453,18 +452,16 @@ body {
 }
 .img-icons:nth-child(3n) {
   margin-right: 0px;
-  
 }
-.img-icons{
+.img-icons {
   background: #ffffff;
   border: 1px solid #eeeeee;
-  box-sizing:content-box;
+  box-sizing: content-box;
 }
 
-
-.distanse-title{
+.distanse-title {
   margin-bottom: 4px;
 }
-.size-text{
+.size-text {
   width: 320px;
-  
+}
